@@ -57,6 +57,9 @@ $('#form').ajaxSubmit({
 
 ## How To Use
 The steps to using AjaxSubmit are as follows:
+
 1. add 'jquery.ajax-submit.js' to your project static directory
+
 2. add `<script src="jquery.ajax-submit.js"></script>` below jQuery core
+
 3. Enjoy! You are shortened your time!
