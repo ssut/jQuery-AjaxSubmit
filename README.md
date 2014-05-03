@@ -44,7 +44,8 @@ $('#form').ajaxSubmit({
         var error = errors[i];
         messages.append('<div>' +
         	'<strong>' + error.field + '</strong>' +
-            '<span>' + error.message + '</span>');
+            '<span>' + error.message + '</span>' +
+            '</div>');
         }
     },
     success: function() {
